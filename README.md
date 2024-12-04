@@ -1,74 +1,52 @@
-![](thumbnail.png)
+# Projeto Pomodoro com Gerenciamento de Tarefas
 
-# Fokus
+Este projeto combina um **temporizador Pomodoro** com um sistema de **gerenciamento de tarefas**, permitindo aumentar a produtividade de forma prática e eficiente.
 
-Olá, aventureiro(a) digital! Você acabou de embarcar na jornada de descoberta do nosso projeto incrível desenvolvido ao longo do curso "JavaScript: explorando a manipulação de elementos e da localStorage". Agarre-se à sua cadeira, pois vamos desbravar os mares do código!
+O projeto foi desenvolvido a partir de uma base existente no GitHub, com foco em melhorar as funcionalidades utilizando JavaScript.
 
-## Uma pitada sobre o Projeto
+## 🚀 Funcionalidades
 
-![](print.png)
+### Temporizador Pomodoro
+- Modo Foco (25 minutos).
+- Pausas curtas (5 minutos) e longas (15 minutos).
+- Alteração dinâmica do contexto (foco ou descanso) com atualização do título e imagem.
+- Sons de alerta:
+  - Início/pausa do cronômetro.
+  - Finalização do tempo.
+- Integração com música ambiente opcional, com botão para ativar/desativar.
 
+### Gerenciamento de Tarefas
+- Adição de tarefas.
+- Seleção de uma tarefa ativa, exibindo sua descrição.
+- Edição de tarefas existentes.
+- Marcar tarefas como concluídas ao final de um ciclo Pomodoro.
+- Exclusão de:
+  - Tarefas concluídas.
+  - Todas as tarefas (reset).
 
-O nosso querido projeto é uma aplicação web simples e interativa que permite aos usuários adicionar, editar, visualizar e remover tarefas, tudo em um ambiente visual agradável e amigável. Mas não se engane, apesar de sua simplicidade, ele é o campo de batalha onde você vai treinar e aprimorar suas habilidades em JavaScript e manipulação da DOM.
+## 🧠 O que foi desenvolvido
 
-## As Magias que o Projeto Realiza
+### Sistema de tarefas
+- Estrutura para armazenar tarefas no **LocalStorage**.
+- Criação dinâmica de elementos HTML para listar tarefas.
+- Controle do estado das tarefas (ativas/concluídas).
+- Botão de edição para renomear tarefas existentes.
+- Botões de exclusão com lógica para remover apenas tarefas concluídas ou todas as tarefas.
 
-1. Adicionar Tarefas: Um botão mágico revela um formulário onde você pode escrever e adicionar novas tarefas.
-2. Editar Tarefas: Clique em um botão editar e voilà, você pode alterar a descrição da tarefa.
-3. Visualizar Tarefas: As tarefas adicionadas estão todas lá, bonitas e organizadas, esperando por sua atenção.
-4. Marcar Tarefas como Completas: Quando uma tarefa é finalizada, ela muda de aparência. É a magia do CSS e JavaScript acontecendo!
-5. Remover Tarefas: Seja seletivo e remova apenas as tarefas completas ou jogue tudo para o alto e comece de novo com uma lista de tarefas limpa.
+### Uso de CSS pronto
+- A base de CSS foi utilizada para focar no desenvolvimento das funcionalidades JavaScript.
 
-## O Caldeirão de Técnicas e Tecnologias
+## ⚙️ Tecnologias Utilizadas
+- **HTML5** para a estrutura do projeto.
+- **CSS3** (já pronto) para o layout e design.
+- **JavaScript** para a lógica e funcionalidades.
 
-Aqui é onde a mágica acontece! Mergulhamos profundamente nas águas de:
+## 📚 O que foi aprendido
+- Manipulação de DOM com JavaScript.
+- Utilização de eventos personalizados para comunicação entre módulos (ex.: evento `FocoFinalizado`).
+- Persistência de dados no **LocalStorage**.
+- Criação e manipulação dinâmica de elementos HTML.
+- Controle do estado de tarefas e integração com o temporizador Pomodoro.
 
-- Manipulação da DOM: Aprendemos a manipular a estrutura de nossa página com JavaScript, criando, removendo e alterando elementos HTML.
-- Eventos JavaScript: Exploramos o poder dos eventos JavaScript para criar uma interface interativa e responsiva.
-- LocalStorage: Ensaiamos a dança de armazenar e recuperar dados usando a LocalStorage, mantendo nossas tarefas seguras e acessíveis mesmo após o navegador ser fechado.
-
-## Como Abrir e Rodar o Projeto: Um Mapa do Tesouro para Navegar no Código
-
-Ahoy, marujo(a) do código! Está pronto(a) para içar as velas e navegar pelas águas do nosso projeto? Segure firme o leme, pois vamos guiar você através dos passos para configurar e executar o projeto em seu ambiente local. Não se preocupe, não há monstros marinhos à vista, apenas um oceano de aprendizado esperando por você!
-
-### Abastecendo o Navio
-
-Certifique-se de que você tem um navegador web moderno instalado. Recomendamos o uso do Google Chrome ou Mozilla Firefox.
-
-#### Navegando até o Projeto
-
-Abra a pasta onde o projeto foi baixado ou extraído.
-Você encontrará um arquivo chamado index.html. Este é o nosso mapa do tesouro!
-
-
-#### Içando as Velas
-
-Dê um duplo clique no arquivo index.html. Voilà! O projeto será aberto em seu navegador padrão, e você será transportado(a) para as terras encantadas da nossa aplicação de gerenciamento de tarefas.
-
-#### Explorando as Ilhas do Código
-
-Abra a pasta do projeto em seu editor de código favorito. Recomendamos o uso do Visual Studio Code ou Sublime Text.
-
-Você encontrará três arquivos principais que contêm o código que faz a magia acontecer:
-
-- script-crud.js: Onde as funcionalidades de CRUD (Criar, Ler, Atualizar e Deletar) das tarefas são implementadas.
-- script.js: Um script adicional que pode conter outras funcionalidades JavaScript do projeto.
-- styles.css: Onde a beleza do projeto é criada, com todos os estilos CSS que fazem nossa aplicação brilhar.
-
-#### Ajustando as Velas:
-
-Sinta-se livre para explorar, modificar e experimentar o código. O mar é vasto e cheio de descobertas!
-
-#### Mensagens na Garrafa:
-
-Se você encontrar algum bug ou tiver sugestões de melhorias, não hesite em compartilhar seus feedbacks.
-
-Agora com o mapa em mãos e as instruções seguras, você está pronto(a) para desbravar as águas do nosso projeto! 
-
-Que os ventos do aprendizado soprem sempre a seu favor, e que você encontre tesouros de conhecimento em cada linha de código. Boa viagem, e até a próxima aventura!
-
-![](https://media.tenor.com/cX92mi1p-NYAAAAd/coding-anime.gif)
-
-
-
-
+## Imagem do projeto
+![fokus-local-storag](https://github.com/user-attachments/assets/e8232016-36a7-46fe-8621-7c4fa0e3f2ff)
